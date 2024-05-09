@@ -20,3 +20,11 @@ myObject = {
   delete myObject['2']
   
   console.log(myObject)
+
+// -----------------------------------------
+// OUTPUT
+{
+  '1': { name: 'shaik' },
+  '3': { age: 'Under 40' },
+  '4': { email: 'foobar@mailinator.com' }
+}
