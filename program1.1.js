@@ -13,25 +13,6 @@ const data = {
     },
   };
   
-  // Initialize an empty object to store the result
-  const output = {};
-  
-  // Loop through each key-value pair in the data object
-  for (const key in data) {
-    // Check if the current value has properties other than 'questionId'
-    if (Object.keys(data[key]).length > 1) {
-      // If yes, add those properties to the output object
-      for (const prop in data[key]) {
-        if (prop !== 'questionId') {
-          output[prop] = prop === 'age' ? data[key][prop].toLowerCase() : data[key][prop];
-        }
-      }
-    }
-  }
-  
-  // Print the final output
-  console.log(output);
-
 
 // PYTHON CODE
 Data={
