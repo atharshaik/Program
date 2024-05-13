@@ -24,11 +24,11 @@ myObject = {
 
 // -----------------------------------------
 // OUTPUT
-{
-  '1': { name: 'shaik' },
-  '3': { age: 'Under 40' },
-  '4': { email: 'foobar@mailinator.com' }
-}
+// {
+//   '1': { name: 'shaik' },
+//   '3': { age: 'Under 40' },
+//   '4': { email: 'foobar@mailinator.com' }
+// }
 
 // 2
 // PYTHON CODE
@@ -52,3 +52,10 @@ for x,y in Data.items():
         if a!="questionId":
             NewData[a]=b
 print(NewData)
+
+// output
+// {
+//     name: 'shaik'
+//     age: 'under 40'
+//     email: 'foobar@milinator.com'
+// }
